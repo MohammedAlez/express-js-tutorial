@@ -7,11 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start":"node server",
-    "dev":"nodemon server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "dependencies": {
     "date-fns": "^4.4.0",
+    "express": "^5.2.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
